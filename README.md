@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+2020.10.05
 
-### Project Title
-Replace the Project Title
+###  Project Title
+BIke Share Example
 
 ### Description
-Describe what your project is about and what it does
+In this project a basic python program is written to get the basic statistic details of the us bike share habits.
 
 ### Files used
-Include the files used
+chicago.cvs
+new_york_city.cvs
+washington.cvs
+Note: all cvs files contain pre-manipulated data, prepared for this program
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://www.udacity.com/
