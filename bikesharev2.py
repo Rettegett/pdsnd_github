@@ -95,6 +95,9 @@ def load_data(city, month, day):
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] =df['Start Time'].dt.weekday_name
 
+    """IMPORTANT: dt.weekday function only works with older pandas verion then 1.0
+        Please use pandas 0.2xxx"""
+
     if month != 'all':
         # use the index of the months list to get the corresponding int
         months = ['january', 'february', 'march', 'april', 'may', 'june']
